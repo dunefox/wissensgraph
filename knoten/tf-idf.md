@@ -8,7 +8,7 @@ Zählt die Vorkommen des Terms $t$ im Dokument $d$. 1 wird für [[Smoothing]] ad
 
 ##  Inverse Document Frequency
 $idf_{t} = log_{10}(\frac{N}{df_{t}})$
-$df_{t} = number of documents t occurs in$
+$df_{t} = number\ of\ documents\ t\ occurs\ in$
 
 N entspricht der gesamten Anzahl von Dokumenten. Je weniger Dokumente $t$ enthalten, desto höher das Gewicht.
 
