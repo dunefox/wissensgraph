@@ -20,5 +20,7 @@ $tf-idf(t, d) = tf_{t, d} * idf_{t}$
 ## Document Score
 $score(q, d) = cos(q, d) = \frac{\textbf{q} * \textbf{d}}{|\textbf{q}| * |\textbf{d}|} = \Sigma_{t \in Q}{\frac{tf-idf(t, d)}{|d|}}$
 
+Für alle Terme der Anfrage q wird die TF-IDF berechnet und durch die Länge des Dokuments normalisiert. Das Ergebnis beschreibt die Ähnlichkeit zwischen Anfrage und Dokument dar.
+
 ## Links
 * Jurafsky: [Speech and Language Processing, Kap. Question Answering, S. 3](https://web.stanford.edu/~jurafsky/slp3/23.pdf)
